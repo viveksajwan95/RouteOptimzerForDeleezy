@@ -1,0 +1,34 @@
+{
+  "zone_count": 4,
+  "max_stops_per_zone": 6,
+  "max_demand_per_zone": 18,
+  "zone_prefix": "NBO",
+  "options": {
+    "seed": 42,
+    "max_iterations": 100,
+    "restarts": 3,
+    "max_swap_passes": 2
+  },
+  "stops": [
+    { "id": "z-001", "lat": 40.714, "lng": -74.001, "demand": 2 },
+    { "id": "z-002", "lat": 40.716, "lng": -73.999, "demand": 3 },
+    { "id": "z-003", "lat": 40.7185, "lng": -74.002, "demand": 1 },
+    { "id": "z-004", "lat": 40.72, "lng": -73.996, "demand": 2 },
+    { "id": "z-005", "lat": 40.7155, "lng": -73.994, "demand": 1 },
+    { "id": "z-006", "lat": 40.711, "lng": -73.997, "demand": 4 },
+    { "id": "z-007", "lat": 40.708, "lng": -74.0, "demand": 2 },
+    { "id": "z-008", "lat": 40.705, "lng": -74.003, "demand": 1 },
+    { "id": "z-009", "lat": 40.7025, "lng": -74.006, "demand": 3 },
+    { "id": "z-010", "lat": 40.701, "lng": -74.01, "demand": 2 },
+    { "id": "z-011", "lat": 40.704, "lng": -74.014, "demand": 1 },
+    { "id": "z-012", "lat": 40.707, "lng": -74.016, "demand": 2 },
+    { "id": "z-013", "lat": 40.711, "lng": -74.015, "demand": 4 },
+    { "id": "z-014", "lat": 40.715, "lng": -74.013, "demand": 1 },
+    { "id": "z-015", "lat": 40.719, "lng": -74.012, "demand": 2 },
+    { "id": "z-016", "lat": 40.722, "lng": -74.008, "demand": 3 },
+    { "id": "z-017", "lat": 40.723, "lng": -74.003, "demand": 1 },
+    { "id": "z-018", "lat": 40.71, "lng": -74.007, "demand": 2 },
+    { "id": "z-019", "lat": 40.717, "lng": -74.0075, "demand": 1 },
+    { "id": "z-020", "lat": 40.706, "lng": -74.0095, "demand": 3 }
+  ]
+}

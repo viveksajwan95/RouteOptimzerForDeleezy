@@ -1,0 +1,131 @@
+{
+  "depot": { "lat": 40.7128, "lng": -74.006 },
+  "vehicles": [
+    {
+      "id": "van-1",
+      "capacity": 10,
+      "max_stops": 10,
+      "shift_start": "08:00",
+      "shift_end": "17:00"
+    },
+    {
+      "id": "van-2",
+      "capacity": 8,
+      "max_stops": 10,
+      "shift_start": "09:00",
+      "shift_end": "17:00"
+    },
+    {
+      "id": "bike-1",
+      "capacity": 4,
+      "max_stops": 6,
+      "shift_start": "10:00",
+      "shift_end": "16:00"
+    }
+  ],
+  "stops": [
+    {
+      "id": "ord-1001",
+      "lat": 40.715,
+      "lng": -74.0025,
+      "kind": "delivery",
+      "demand": 2,
+      "time_window": { "start": "09:00", "end": "12:00" }
+    },
+    {
+      "id": "ord-1002",
+      "lat": 40.7182,
+      "lng": -74.004,
+      "kind": "delivery",
+      "demand": 1
+    },
+    {
+      "id": "ord-1003",
+      "lat": 40.7105,
+      "lng": -74.009,
+      "kind": "delivery",
+      "demand": 3,
+      "time_window": { "start": "10:00", "end": "14:00" }
+    },
+    {
+      "id": "ord-1004",
+      "lat": 40.706,
+      "lng": -74.001,
+      "kind": "delivery",
+      "demand": 1
+    },
+    {
+      "id": "ord-1005",
+      "lat": 40.7205,
+      "lng": -73.998,
+      "kind": "delivery",
+      "demand": 2,
+      "time_window": { "start": "08:00", "end": "11:00" }
+    },
+    {
+      "id": "ord-1006",
+      "lat": 40.704,
+      "lng": -74.012,
+      "kind": "delivery",
+      "demand": 1
+    },
+    {
+      "id": "ord-1007",
+      "lat": 40.725,
+      "lng": -74.009,
+      "kind": "delivery",
+      "demand": 2,
+      "time_window": { "start": "13:00", "end": "17:00" }
+    },
+    {
+      "id": "ord-1008",
+      "lat": 40.7005,
+      "lng": -73.999,
+      "kind": "delivery",
+      "demand": 1
+    },
+    {
+      "id": "pk-2001",
+      "lat": 40.7135,
+      "lng": -74.003,
+      "kind": "pickup",
+      "pair_id": "pair-2001",
+      "demand": 2,
+      "time_window": { "start": "09:00", "end": "12:00" }
+    },
+    {
+      "id": "dp-2001",
+      "lat": 40.721,
+      "lng": -74.006,
+      "kind": "dropoff",
+      "pair_id": "pair-2001",
+      "demand": 2,
+      "time_window": { "start": "09:30", "end": "13:00" }
+    },
+    {
+      "id": "pk-2002",
+      "lat": 40.709,
+      "lng": -74.008,
+      "kind": "pickup",
+      "pair_id": "pair-2002",
+      "demand": 1,
+      "time_window": { "start": "11:00", "end": "15:00" }
+    },
+    {
+      "id": "dp-2002",
+      "lat": 40.702,
+      "lng": -74.005,
+      "kind": "dropoff",
+      "pair_id": "pair-2002",
+      "demand": 1,
+      "time_window": { "start": "11:30", "end": "16:00" }
+    }
+  ],
+  "options": {
+    "speed_kmh": 25,
+    "road_factor": 1.35,
+    "default_service_time_s": 120,
+    "enable_local_search": true,
+    "max_optimization_rounds": 25
+  }
+}
